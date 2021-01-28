@@ -1,0 +1,4 @@
+hw1/lucene-*/
+hw1/test/index/
+*/.vscode/
+*DS_Store
