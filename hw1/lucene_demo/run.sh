@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # src: https://lucene.apache.org/core/8_7_0/demo/overview-summary.html#overview.description
+# Extract 4 jar files from lucene-8.7.0 binary download
 
 echo -n "Do you want to (re)build an index? Enter Y or n: "
 read x
