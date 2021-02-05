@@ -8,7 +8,7 @@ read x
 if [ "$x" = "Y" ]
 then
     # Build an index
-    java -cp ./lucene-analyzers-common-8.7.0.jar:./lucene-core-8.7.0.jar:./lucene-demo-8.7.0.jar:./lucene-queryparser-8.7.0.jar org.apache.lucene.demo.IndexFiles -docs cc.gatech.edu
+    java -cp ./lucene-analyzers-common-8.7.0.jar:./lucene-core-8.7.0.jar:./lucene-demo-8.7.0.jar:./lucene-queryparser-8.7.0.jar org.apache.lucene.demo.IndexFiles -docs ../lucene-8.7.0
 fi
 
 # Search the index

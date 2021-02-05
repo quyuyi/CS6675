@@ -1,6 +1,6 @@
 .DS_Store
 .vscode/
 lucene-8.7.0/
-solr-8.8.0/
-apache-nutch-1.18/
-lucene_demo/index/
+lucene_demo/
+dump/
+apache-nutch-1.18/logs/
