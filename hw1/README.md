@@ -10,7 +10,6 @@ mkdir -p urls
 cd urls
 touch seed.txt # type in the seed urls in this file
 ```
-In this homework, I use a single seed list https://www.cc.gatech.edu/.
 
 Seed the `crawldb` with a list of URLs. A `crawldb` contains information about every URL known to Nutch, including status (whether it was fetiched), fetching time, score, signature, metadata, etc.
 ```bash
@@ -86,3 +85,6 @@ bin/nutch index crawl/crawldb/ -linkdb crawl/linkdb/ crawl/segments/<segment>/ -
 ```
 
 Navigate to http://localhost:8983/solr/ and select the nutch core, where there is a GUI to do search query and view the search results.
+
+## Experiment
+I seed the crawler with one single seed list https://www.cc.gatech.edu/. I crawled ~7000 pages, extracting ~50000 pages from them in 4 hours, doing 5 rounds of nutch fetch. The `crawl/` directory contains the results generated during my experiment.
