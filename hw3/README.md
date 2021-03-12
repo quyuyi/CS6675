@@ -62,3 +62,6 @@ One or more related smart contracts are defined within a chaincode.
 
 Once a chaincode has been installed on a peer and deployed to a channel, the smart contracts in it are accessible to an application:
 
+References:
+- [hyperledger tutorial](https://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html)
+- [hyperledger fabric sample git repo](https://github.com/hyperledger/fabric-samples)
